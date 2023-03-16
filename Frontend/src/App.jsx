@@ -27,8 +27,7 @@ export const App = () => (
         <Router>
           <Navbar/>
           <Switch>
-            <Route exact path='/' component={Main}></Route>
-            <Route path='/report' component={Report}></Route>
+            <Route path='/' component={Report}></Route>
           </Switch>
         </Router>
     </ThemeProvider>

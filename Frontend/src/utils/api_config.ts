@@ -1,6 +1,6 @@
 export const api_url = "https://assg-3-am.azurewebsites.net/api"
 
-const api_key = "WKss3EtKTKc6wPeRC4MN7u8h1cI0YRwgB_8B_FX-appRAzFuLYRoSQ=="
+const api_key = "h3kPgrunkxmoXc10z9JDqqO8fIKNtgPjyxh0pxIOYZ4wAzFulRhVhw=="
 
 export const api_config = {
     headers:{
