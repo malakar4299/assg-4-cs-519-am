@@ -30,7 +30,7 @@ jobs:
           #npm run test --if-present
           rm -r public
           rm -r src
-          rm node_modules
+          rm -r node_modules
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
