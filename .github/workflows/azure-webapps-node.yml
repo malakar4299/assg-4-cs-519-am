@@ -33,6 +33,7 @@ jobs:
           # npm run test 
           rm -r public
           rm -r src
+          rm -r node_modules
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
