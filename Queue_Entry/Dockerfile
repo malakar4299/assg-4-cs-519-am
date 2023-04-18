@@ -4,8 +4,8 @@ FROM mcr.microsoft.com/azure-functions/node:4-node16
 
 ENV AzureWebJobsScriptRoot=/home/site/wwwroot \
     AzureFunctionsJobHost__Logging__Console__IsEnabled=true \
-    queueconnectionstring=DefaultEndpointsProtocol=https;AccountName=outqueue;AccountKey=Wl5sqxOD31D92vsxiqrYVdPn6T4XgJcUA6MgjjnlE7OvIT+AZCuT15c0Ty6EzS+u2C/qc06LurCI+AStxdyTag==;EndpointSuffix=core.windows.net \
-    shipping-data-dbs-acc_DOCUMENTDB=AccountEndpoint=https://shipping-data-dbs-acc.documents.azure.com:443/;AccountKey=5Nt6vj3gjIPwv24QMmjlXuy2FAc31D5OE5FttwTbjdKji0hfKhE4TawvrGzo4kQiZ1KzsNz1NzXxACDbTnz6mQ==; \
+    AzureWebJobsStorage=DefaultEndpointsProtocol=https;AccountName=assg3cs519am811d;AccountKey=Y+7JrHrSaCcqlHKKiW6Ih3w5aaqm0ndy5DEZUjBri515sCQ4wF3YNpN38CVWovIsmCsRgj8XRMSi+AStWrPntQ==;EndpointSuffix=core.windows.net \
+    CONNECTION_STRING=AccountEndpoint=https://cs-519-assg-5-am.documents.azure.com:443/;AccountKey=60PUo2tmk6udXP4LVamW81BlPD3fRPJrvVdWQDCHOjYM7YgNGbo669B8GGVWrKgICMqpshdbTzDfACDbo5mdPg==; \
     CORS_ALLOWED_ORIGIN='["*"]'
 
 COPY . /home/site/wwwroot
